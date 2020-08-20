@@ -1,0 +1,203 @@
+body {
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headercontainer {
+  width: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.European {
+  font-family: cursive;
+  vertical-align: middle;
+  width: 900px;
+  margin-left: 20px;
+}
+
+.nice {
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* header  */
+
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 0px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+  align-items: center;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+header li {
+  justify-content: flex-end;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header .highlight,
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #e8491d;
+}
+
+/* M.S. European "logo" */
+
+/* showcase WITH BACKGROUND IMAGE */
+
+#showcase {
+  min-height: 510px;
+  background: url(./websitedesign/mainpic.jpg) no-repeat;
+}
+
+#showcase h2 {
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+/* newsletter */
+
+#newsletter {
+  padding: 5px;
+  color: #ffffff;
+  background: #35424a;
+}
+
+.container h3 {
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.biggercard {
+  justify-content: center;
+  display: flex;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  color: white;
+  background-color: #35424a;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 0px;
+  overflow: hidden;
+  width: 30%;
+  margin: 30px;
+  border-radius: 30px;
+}
+
+.card h4 {
+  color: #e8491d;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card li {
+  padding: 5px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.content {
+  padding: 2px 16px;
+}
+
+/* google img map  */
+
+.contentgoogleimg {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #35424a;
+  padding-top: 0px;
+  overflow: hidden;
+  margin: 30px;
+  border-radius: 30px;
+}
+
+/* footer */
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
+
+/* main-col */
+
+article #main-col {
+  float: left;
+  width: 65%;
+}
+
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* specials */
+ul#specials li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+.specialone {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#specialsimg {
+  background: url(https://s3-media0.fl.yelpcdn.com/bphoto/yYStt_wLr01wpby8IIcc0w/o.jpg)
+    no-repeat;
+}
